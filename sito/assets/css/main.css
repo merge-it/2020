@@ -1714,11 +1714,16 @@ table {
     border-right: 0; }
     table tbody tr.half-day {
       height: 350px; }
-      table tbody tr.half-day td {
-        vertical-align: middle; }
+    table tbody tr.rows-1 {
+      height: 60px; }
+    table tbody tr.rows-2 {
+      height: 120px; }
+    table tbody tr.rows-3 {
+      height: 180px; }
   table td {
     padding: 0.75rem 0.75rem;
-    text-align: center; }
+    text-align: center;
+    vertical-align: middle; }
   table th {
     color: #000000;
     font-size: 0.9rem;
