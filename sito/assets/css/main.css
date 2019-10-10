@@ -1701,6 +1701,16 @@ ul.icons {
         background-color: rgba(144, 144, 144, 0.1); }
 
 /* Table */
+.table-legend .inline-icon {
+  padding: 10px;
+  height: 50px; }
+  .table-legend .inline-icon.free {
+    background-color: #CBFFC4; }
+  .table-legend .inline-icon.pending {
+    background-color: #FFE3C4; }
+  .table-legend .inline-icon.confirmed {
+    background-color: #EDFFFF; }
+
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto; }
@@ -1754,6 +1764,8 @@ table {
       background-color: #CBFFC4; }
     table.schedule-table td.pending {
       background-color: #FFE3C4; }
+    table.schedule-table td.confirmed {
+      background-color: #EDFFFF; }
 
 /* Arrow */
 a.arrow {

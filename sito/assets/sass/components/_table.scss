@@ -6,6 +6,25 @@
 
 /* Table */
 
+	.table-legend {
+		.inline-icon {
+			padding: 10px;
+			height: 50px;
+
+			&.free {
+				background-color: #CBFFC4;
+			}
+
+			&.pending {
+				background-color: #FFE3C4;
+			}
+
+			&.confirmed {
+				background-color: #EDFFFF;
+			}
+		}
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -103,6 +122,10 @@
 
 				&.pending {
 					background-color: #FFE3C4;
+				}
+
+				&.confirmed {
+					background-color: #EDFFFF;
 				}
 			}
 		}
