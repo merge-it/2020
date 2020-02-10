@@ -112,6 +112,10 @@
 		font-size: 0.625rem;
 	}
 
+	small {
+		font-size: small;
+	}
+
 	@include breakpoint('<=small') {
 		h1 {
 			font-size: 4.5rem;

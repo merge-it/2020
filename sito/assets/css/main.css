@@ -188,6 +188,9 @@ h5 {
 h6 {
   font-size: 0.625rem; }
 
+small {
+  font-size: small; }
+
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 4.5rem;
@@ -1759,7 +1762,8 @@ table {
     table.alt tfoot {
       border-top: 0; }
   table.schedule-table td {
-    background-color: #EDFFFF; }
+    background-color: #EDFFFF;
+    line-height: 18pt; }
     table.schedule-table td.free {
       background-color: #CBFFC4; }
     table.schedule-table td.pending {
