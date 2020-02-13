@@ -34,7 +34,7 @@
 					// Line.
 						&:before {
 							height: calc(100% + #{$pad * 2});
-							left: calc(50vw - #{$pad});
+							left: calc(40vw - #{$pad});
 						}
 
 					// Headings.
@@ -57,7 +57,7 @@
 
 				> .content {
 					> section {
-						left: calc(-50vw - #{$pad});
+						left: calc(-40vw - #{$pad});
 
 						> header {
 							width: _size(subheader-width) + ($pad * 2);
@@ -78,7 +78,7 @@
 
 								// Line.
 									&:before {
-										margin-left: calc(50vw - #{$pad * 2});
+										margin-left: calc(40vw - #{$pad * 2});
 									}
 
 								@include breakpoint('<=medium') {
@@ -100,7 +100,7 @@
 
 							// Terminator.
 								&:after {
-									left: calc(50vw - #{$pad} - 0.25rem + #{_size(line-width) * 0.5});
+									left: calc(40vw - #{$pad} - 0.25rem + #{_size(line-width) * 0.5});
 								}
 
 						}
@@ -178,7 +178,7 @@
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 50vw;
+				width: 40vw;
 				z-index: -1;
 			}
 
@@ -186,7 +186,7 @@
 			section {
 				display: grid;
 				grid-template-areas: "header content" "footer content";
-				grid-template-columns: 50vw 50vw;
+				grid-template-columns: 40vw 60vw;
 				grid-template-rows: 1fr;
 
 				&:first-child {
@@ -218,7 +218,7 @@
 
 				> .content {
 					grid-area: content;
-					max-width: _size(content-width);
+					// max-width: _size(content-width);
 					position: relative;
 				}
 
@@ -363,9 +363,9 @@
 			.copyright {
 				color: _palette(fg-light);
 				font-size: 1rem;
-				left: 50vw;
+				left: 40vw;
 				position: relative;
-				width: 50vw;
+				width: 60vw;
 
 				a {
 					color: inherit;
