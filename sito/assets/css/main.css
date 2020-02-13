@@ -1033,6 +1033,10 @@ hr {
     border-radius: 0;
     padding: 0; }
 
+.supporters img {
+  width: 25%;
+  display: inline-block; }
+
 /* Button */
 input[type="submit"],
 input[type="reset"],
