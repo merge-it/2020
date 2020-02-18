@@ -123,7 +123,7 @@ head();
 										<strong>Workshop</strong><br>Produzione e Pubblicazione di Open Data per la PA
 									</td>
 									<td class="confirmed" width="33%">
-										<strong>Workshop</strong><br>Gestione delle Migrazioni
+										<a href="/workshop-migrazioni.php"><strong>Workshop</strong><br>Protocollo di Migrazione da Software Proprietario a Software Libero</a>
 									</td>
 								</tr>
 							</tbody>
@@ -309,7 +309,7 @@ head();
 					</div>
 					<div class="field">
 						<input type="checkbox" id="privacy" name="privacy" required>
-						<label for="privacy">Acconsento al <a href="privacy.html">trattamento dei dati</a></label>
+						<label for="privacy">Acconsento al <a href="/privacy.php">trattamento dei dati</a></label>
 					</div>
 				</div>
 				<ul class="actions">
