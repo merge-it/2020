@@ -7,7 +7,7 @@ function head($title = '')
     <!DOCTYPE HTML>
     <html>
     	<head>
-    		<title>MERGE-it 2020<?php echo (empty($text) ? '' : " $title") ?></title>
+    		<title>MERGE-it 2020<?php echo (empty($title) ? '' : ": $title") ?></title>
     		<meta charset="utf-8" />
     		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     		<meta name="description" content="" />
@@ -197,4 +197,11 @@ function page($data)
 
     contacts();
     footer();
+}
+
+function community_talk($data)
+{
+    $data['title'] = 'Talk';
+    $data['details'][] = 'Toolbox<br>Via Agostino da Montefeltro 2, Torino';
+    page($data);
 }

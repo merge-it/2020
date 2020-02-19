@@ -103,26 +103,29 @@ head();
 						<table class="alt schedule-table">
 							<tbody>
 								<tr class="half-day">
-									<td class="confirmed" rowspan="3" width="33%">
+									<td class="confirmed" rowspan="3" width="25%">
 										<strong>EOLE</strong><br>
 										European Opensource & Freesoftware Legal Event<br>
 										<small>per i dettagli, consulta <a href="http://eolevent.eu/" target="_blank">il sito dell'evento</a></small>
 									</td>
-									<td class="pending" colspan="2" width="66%">
+									<td class="pending" colspan="3" width="75%">
 										<strong>Panel</strong><br>
 										Esperienze open source nella PA italiana
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2">
+									<td colspan="3">
 										<strong>Pranzo</strong>
 									</td>
 								</tr>
 								<tr class="half-day">
-									<td class="confirmed" width="33%">
-										<strong>Workshop</strong><br>Produzione e Pubblicazione di Open Data per la PA
+									<td class="pending" width="25%">
+										<strong>Tavola Rotonda</strong><br>Opportunità e limiti del modello collaborativo nella PA
 									</td>
-									<td class="confirmed" width="33%">
+									<td class="confirmed" width="25%">
+										<a href="/workshop-opendata.php"><strong>Workshop</strong><br>Produzione e Pubblicazione di Open Data per la PA</a>
+									</td>
+									<td class="confirmed" width="25%">
 										<a href="/workshop-migrazioni.php"><strong>Workshop</strong><br>Protocollo di Migrazione da Software Proprietario a Software Libero</a>
 									</td>
 								</tr>
@@ -160,7 +163,7 @@ head();
 								<td class="pending" width="50%">
 									<strong>Panel</strong><br>Impresa e Software Libero
 								</td>
-								<td class="confirmed" width="50%">
+								<td class="pending" width="50%">
 									<strong>Workshop</strong><br>Metodologie di Sviluppo Open Source
 								</td>
 							</tr>
@@ -188,19 +191,19 @@ head();
 									<th width="50%">Sessione Lavoro</th>
 								</tr>
 								<tr>
-									<td class="pending">Hackability</td>
-									<td class="confirmed"><strong>Cloud Privato</strong><br>Davide Mainardi</td>
-								</tr>
-								<tr>
 									<td class="free">&nbsp;</td>
-									<td class="confirmed"><strong>Wiki per la Scuola</strong><br>Matteo Ruffoni</td>
+									<td class="confirmed"><a href="/talks.php?id=cloud-privato"><strong>Cloud Privato</strong><br>Davide Mainardi</a></td>
 								</tr>
 								<tr>
-									<td class="pending">SIMCAA</td>
+									<td class="pending">Hackability</td>
+									<td class="confirmed"><a href="/talks.php?id=wiki-scuola"><strong>Wiki* per la Scuola</strong><br>Matteo Ruffoni</a></td>
+								</tr>
+								<tr>
+									<td class="confirmed"><strong>SIMCAA</strong><br>Oscar Pastrone</td>
 									<td class="pending">NethServer</td>
 								</tr>
 								<tr>
-									<td class="confirmed"><strong>Hackerspace Design Pattern</strong><br>Sebastiano Mestre</td>
+									<td class="confirmed"><a href="/talks.php?id=hackerspace"><strong>Hackerspace Design Pattern</strong><br>Sebastiano Mestre</a></td>
 									<td class="confirmed"><strong>Siti scuole</strong><br>Marco Buttarini</td>
 								</tr>
 								<tr>
@@ -240,21 +243,21 @@ head();
 								</tr>
 								<tr>
 									<td class="pending">Blender Italia</td>
-									<td class="pending">Analisi Pioggia</td>
-									<td class="confirmed"><strong>Contribuire all'Open Source</strong><br>Daniele Scasciafratte</td>
+									<td class="confirmed"><strong>Analisi Pioggia</strong><br>Paola Mazzoglio</td>
+									<td class="confirmed"><a href="/talks.php?id=contribuire-open-source"><strong>Contribuire all'Open Source</strong><br>Daniele Scasciafratte</a></td>
 								</tr>
 								<tr>
 									<td class="pending">Industria Software Libero</td>
-									<td class="confirmed"><strong>Open Data Hub</strong><br>Patrick Ohnewein</td>
-									<td class="confirmed"><strong>Common Voice</strong><br>Daniele Scasciafratte</td>
+									<td class="confirmed"><a href="/talks.php?id=opendatahub"><strong>Open Data Hub</strong><br>Patrick Ohnewein</a></td>
+									<td class="confirmed"><a href="/talks.php?id=common-voice"><strong>Common Voice</strong><br>Daniele Scasciafratte</a></td>
 								</tr>
 								<tr>
 									<td class="free">&nbsp;</td>
-									<td class="confirmed"><strong>PhysiRadio</strong><br>Andrea Trentini</td>
-									<td class="confirmed"><strong>Domotica</strong><br>Francesco Tucci</td>
+									<td class="confirmed"><a href="/talks.php?id=physiradio"><strong>PhysiRadio</strong><br>Andrea Trentini</a></td>
+									<td class="confirmed"><a href="/talks.php?id=domotica"><strong>Domotica</strong><br>Francesco Tucci</a></td>
 								</tr>
 								<tr>
-									<td class="confirmed"><strong>Summary Riunione Plenaria</strong><br>Roberto Guido</td>
+									<td class="confirmed"><a href="talks.php?id=summary-plenaria"><strong>Summary Riunione Plenaria</strong><br>Roberto Guido</a></td>
 									<td class="free">&nbsp;</td>
 									<td class="free">&nbsp;</td>
 								</tr>
