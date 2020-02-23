@@ -152,35 +152,15 @@ function page($data)
                     <hr>
 
                     <?php if(isset($data['register'])): ?>
-                        <p>
-                            Per partecipare a questa attività - con posti limitati - è richiesta la registrazione: compila il form qui sotto.
-                        </p>
-
-                        <form method="post" action="https://postegg.madbob.org/save/004c2880-bf79-11e9-aa17-258f57ed9495">
-                            <input type="hidden" name="registration" value="<?php echo $data['register'] ?>">
-
-                            <div class="fields">
-                                <div class="field half">
-                                    <label>Nome</label>
-                                    <input type="text" name="name" value="" required>
-                                </div>
-                                <div class="field half">
-                                    <label>Email</label>
-                                    <input type="email" name="email" value="" required>
-                                </div>
-                                <div class="field">
-                                    <label>Note per l'Organizzazione (opzionale)</label>
-                                    <textarea name="message" rows="4"></textarea>
-                                </div>
-                                <div class="field">
-                                    <input type="checkbox" id="privacy" name="privacy" required>
-                                    <label for="privacy">Acconsento al <a href="/privacy.php">trattamento dei dati</a></label>
-                                </div>
-                            </div>
-                            <ul class="actions">
-                                <li><input type="submit" value="Registrami all'Attività" class="primary"></li>
-                            </ul>
-                        </form>
+                        <?php if($data['register'] == 'mandatory'): ?>
+                            <p class="alert">
+                                Per partecipare a questa attività - con posti limitati - è richiesta la registrazione: <a href="/registrazione.php">clicca qui e compila il form</a>.
+                            </p>
+                        <?php else: ?>
+                            <p class="alert">
+                                Per partecipare a questa attività è gradita la registrazione: <a href="/registrazione.php">clicca qui e compila il form</a>.
+                            </p>
+                        <?php endif ?>
 
                         <hr>
                     <?php endif ?>

@@ -33,6 +33,19 @@ $talks = [
         ],
     ],
 
+    'siti-scolastici' => [
+        'title' => 'Siti Scolastici',
+        'author' => 'Marco Buttarini',
+        'date' => 'Sabato 4 Aprile - 12:00',
+        'contents' => [
+            "I siti scolastici sono il punto di riferimento della relazione tra scuola, studenti e famiglie.",
+            "Per questo il MIUR ha deciso, insieme a Designers Italia – Team per la Trasformazione Digitale – di creare un modello di siti scolastici a disposizione di tutti.",
+            "Il progetto durato 2 anni è concluso ed ha prodotto materiale utilissimo alle scuole: un documento di architettura dell'informazione, il design, l'html e il tema WordPress che integra il tutto nel cms più utilizzato.",
+            "Nel talk racconteremo l'esperienza e le tecniche adottate, le sfide e i problemi affrontati e le future evoluzioni del progetto.",
+            "<a href=\"https://designers.italia.it/progetti/siti-web-scuole/\">https://designers.italia.it/progetti/siti-web-scuole/</a>"
+        ],
+    ],
+
     'opendatahub' => [
         'title' => 'Open Data Hub',
         'author' => 'Patrick Ohnewein',

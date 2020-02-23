@@ -28,7 +28,7 @@ head();
 				La prima edizione si è svolta nel marzo 2018, si è articolata in otto diverse aule tematiche e ha accolto partecipanti da tutta Italia. Per la seconda edizione si intende estendere l'ambito di riferimento, coinvolgendo anche altri soggetti.
 			</p>
 			<p>
-				L'evento è aperto a tutti, la partecipazione gratuita, e non è necessario registrarsi.
+				L'evento è aperto a tutti, la partecipazione gratuita. <a href="/registrazione.php">Per le attività del 2 e 3 aprile è consigliata la registrazione</a>.
 			</p>
 		</div>
 	</section>
@@ -108,9 +108,8 @@ head();
 										European Opensource & Freesoftware Legal Event<br>
 										<small>per i dettagli, consulta <a href="http://eolevent.eu/" target="_blank">il sito dell'evento</a></small>
 									</td>
-									<td class="pending" colspan="3" width="75%">
-										<strong>Panel</strong><br>
-										Esperienze open source nella PA italiana
+									<td class="confirmed" colspan="3" width="75%">
+										<a href="/softwarelibero_pubblica_amministrazione.php"><strong>Panel</strong><br>Esperienze open source nella PA italiana</a>
 									</td>
 								</tr>
 								<tr>
@@ -149,9 +148,8 @@ head();
 					<div class="table-wrapper">
 						<table class="alt schedule-table">
 							<tr class="half-day">
-								<td class="pending" colspan="2">
-									<strong>Panel</strong><br>
-									Impresa e Software Libero
+								<td class="confirmed" colspan="2">
+									<a href="/softwarelibero_impresa.php"><strong>Panel</strong><br>Impresa e Software Libero</a>
 								</td>
 							</tr>
 							<tr>
@@ -165,6 +163,11 @@ head();
 								</td>
 								<td class="pending" width="50%">
 									<strong>Workshop</strong><br>Metodologie di Sviluppo Open Source
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<strong>Beer Event</strong>
 								</td>
 							</tr>
 						</table>
@@ -204,7 +207,7 @@ head();
 								</tr>
 								<tr>
 									<td class="confirmed"><a href="/talks.php?id=hackerspace"><strong>Hackerspace Design Pattern</strong><br>Sebastiano Mestre</a></td>
-									<td class="confirmed"><strong>Siti scuole</strong><br>Marco Buttarini</td>
+									<td class="confirmed"><a href="/talks.php?id=siti-scolastici"><strong>Siti Scolastici</strong><br>Marco Buttarini</a></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -214,6 +217,11 @@ head();
 								<tr class="half-day">
 									<td colspan="2" class="confirmed">
 										<a href="/plenaria.php"><strong>Sessione Plenaria</strong><br>Presente e Futuro delle Libertà Digitali in Italia</a>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<strong>Cena Sociale</strong>
 									</td>
 								</tr>
 							</tbody>

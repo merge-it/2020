@@ -13,5 +13,5 @@ page([
     'contents' => [
         "TODO",
     ],
-    'register' => 'workshop_opendata'
+    'register' => 'mandatory'
 ]);
