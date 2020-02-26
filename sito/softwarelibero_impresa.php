@@ -10,6 +10,7 @@ page([
         'Open Incet<br>Piazza Teresa Noce 17, Torino',
     ],
     'contents' => [
+        "Con la collaborazione di <a href=\"https://www.top-ix.org/\">Top-IX</a> e <a href=\"https://www.torinowireless.it/\">Torino Wireless</a>.",
         "IL PANEL È IN FASE DI DEFINIZIONE.",
     ],
     'register' => 'optional'

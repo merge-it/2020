@@ -330,41 +330,6 @@ head();
 		</div>
 	</section>
 
-	<section id="contacts">
-		<header>
-			<h2>Get in touch</h2>
-		</header>
-		<div class="content">
-			<p>Per metterti in contatto con l'organizzazione di <strong>MERGE-it</strong> usa i contatti indicati accanto.</p>
-
-			<div class="supporters">
-				<h5>Con il patrocinio di</h5>
-				<p>
-					<img alt="Città di Torino" src="/images/citta_torino.jpg">
-				</p>
-			</div>
-		</div>
-		<footer>
-			<ul class="items">
-				<li>
-					<h3>Email</h3>
-					<a href="mailto:info@merge-it.net">info@merge-it.net</a>
-				</li>
-				<li>
-					<h3>Telefono</h3>
-					<a href="tel:00393487254214">+39 3487254214</a>
-				</li>
-				<li>
-					<h3>Online</h3>
-					<ul class="icons">
-						<li><a href="https://twitter.com/merge_it" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/merge-it" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</li>
-			</ul>
-		</footer>
-	</section>
-
-	<div class="copyright">CC-BY-3.0. Design: <a href="https://html5up.net/paradigm-shift">HTML5 UP</a>.</div>
+	<?php contacts() ?>
 
 <?php footer() ?>
