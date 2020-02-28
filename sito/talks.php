@@ -15,6 +15,17 @@ $talks = [
         ],
     ],
 
+    'developersitalia' => [
+        'title' => 'Developers Italia',
+        'author' => 'Leonardo Favario',
+        'date' => 'Sabato 4 Aprile - 10:00',
+        'contents' => [
+            "Developers Italia (<a href=\"https://developers.italia.it/\">https://developers.italia.it/</a>), progetto curato dal Dipartimento per la Trasformazione Digitale in collaborazione con AgID, è la community italiana degli sviluppatori di servizi pubblici digitali. La community unisce privati cittadini, funzionari di Pubbliche Amministrazioni e rappresentanti di imprese che operano sul territorio i quali, giornalmente, contribuiscono al processo di trasformazione digitale del paese.",
+            "L'approccio è aperto, trasparente, collaborativo: tutto il codice è sviluppato direttamente in open source. Chiunque può dare una mano.",
+            "Inoltre, Developers Italia è il fulcro del nuovo modello di riuso introdotto dalle linee guida su acquisizione e riuso di software per le pubbliche amministrazioni italiane.",
+        ],
+    ],
+
     'hackerspace' => [
         'title' => 'Hackerspace Design Pattern',
         'author' => 'Sebastiano Mestre',
@@ -97,7 +108,7 @@ $talks = [
     ],
 
     'domotica' => [
-        'title' => 'Common Voice',
+        'title' => 'Domotica',
         'author' => 'Francesco Tucci',
         'date' => 'Domenica 5 Aprile - 11:20',
         'contents' => [

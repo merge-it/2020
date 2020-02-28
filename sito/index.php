@@ -194,7 +194,7 @@ head();
 									<th width="50%">Sessione Lavoro</th>
 								</tr>
 								<tr>
-									<td class="free">&nbsp;</td>
+									<td class="confirmed"><a href="/talks.php?id=developersitalia"><strong>Developers Italia</strong><br>Leonardo Favario</a></td>
 									<td class="confirmed"><a href="/talks.php?id=cloud-privato"><strong>Cloud Privato</strong><br>Davide Mainardi</a></td>
 								</tr>
 								<tr>
