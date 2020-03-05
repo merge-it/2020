@@ -6,7 +6,8 @@ head();
 	<section class="intro">
 		<header>
 			<h1>MERGE-it</h1>
-			<p>2/3/4/5 Aprile 2020 - Torino</p>
+			<p><strike>2/3/4/5 Aprile 2020 - Torino</strike></p>
+			<p>EVENTO ANNULLATO</p>
 			<ul class="actions">
 				<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 			</ul>
@@ -28,11 +29,17 @@ head();
 				La prima edizione si è svolta nel marzo 2018, si è articolata in otto diverse aule tematiche e ha accolto partecipanti da tutta Italia. Per la seconda edizione si intende estendere l'ambito di riferimento, coinvolgendo anche altri soggetti.
 			</p>
 			<p>
-				L'evento è aperto a tutti, la partecipazione gratuita. <a href="/registrazione.php">Per le attività del 2 e 3 aprile è consigliata la registrazione</a>.
+				L'evento è aperto a tutti, la partecipazione gratuita.
+			</p>
+
+			<p class="box">
+				UPDATE: l'evento è stato rimandato a data da destinarsi a seguito dell'escalation della diffusione del virus COVID-19 e della conseguente sospensione di tutti gli eventi pubblici <a href="http://www.governo.it/it/articolo/coronavirus-firmato-il-dpcm-4-marzo-2020/14241">per decreto della Presidenza del Consiglio dei Ministri</a>.<br>
+				Seguite <a href="https://twitter.com/merge_it">il nostro account Twitter</a> o <a href="http://www.ils.org/newsletter">la mailing list di Italian Linux Society</a> per aggiornamenti.
 			</p>
 		</div>
 	</section>
 
+	<!--
 	<section>
 		<header>
 			<h2>Quando</h2>
@@ -329,6 +336,8 @@ head();
 			</form>
 		</div>
 	</section>
+
+	-->
 
 	<?php contacts() ?>
 
