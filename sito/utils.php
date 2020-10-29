@@ -112,6 +112,7 @@ function contacts()
 				<li>
 					<h3>Online</h3>
 					<ul class="icons">
+                        <li><a href="http://online.merge-it.net/">MERGE-it Online</a></li>
 						<li><a href="https://twitter.com/merge_it" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://github.com/merge-it" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
