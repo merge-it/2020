@@ -34,7 +34,7 @@ head();
 
 			<p class="box">
 				UPDATE: l'evento è stato rimandato a data da destinarsi a seguito dell'escalation della diffusione del virus COVID-19 e della conseguente sospensione di tutti gli eventi pubblici <a href="http://www.governo.it/it/articolo/coronavirus-firmato-il-dpcm-4-marzo-2020/14241">per decreto della Presidenza del Consiglio dei Ministri</a>.<br>
-				Seguite <a href="https://twitter.com/merge_it">il nostro account Twitter</a> o <a href="http://www.ils.org/newsletter">la mailing list di Italian Linux Society</a> per aggiornamenti.
+				Visitate <a href="http://online.merge-it.net/">MERGE-it Online</a>, seguite <a href="https://twitter.com/merge_it">il nostro account Twitter</a> o <a href="http://www.ils.org/newsletter">la mailing list di Italian Linux Society</a> per aggiornamenti.
 			</p>
 		</div>
 	</section>
